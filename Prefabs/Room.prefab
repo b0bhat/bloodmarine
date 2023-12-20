@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &118404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 456254}
+  - component: {fileID: 11430952}
+  m_Layer: 6
+  m_Name: Room
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &456254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11430952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b01a893185df2e84c8110883393e1474, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CorridorPrefab: {fileID: 11402150, guid: 95db01f4cefe31642b5d1b8efb959a2d, type: 3}
+  Size:
+    x: 0
+    z: 0
+  Coordinates:
+    x: 0
+    z: 0
+  Num: 0
+  TilePrefab: {fileID: 11474140, guid: 882a68cab87adc249928e3e67ee355ab, type: 3}
+  WallPrefab: {fileID: 123962, guid: dca2ec261cb2cf949be2ca0148a958b7, type: 3}
+  BoxPrefab: {fileID: 3850002948606662724, guid: 6a5afbe4602dff548ba4e11a65ec9a84, type: 3}
+  Setting:
+    floor: {fileID: 2100000, guid: e7741bd5a4da20d49b1f23d243434a11, type: 2}
+    wall: {fileID: 2100000, guid: f491515ea5fcbb44da2658736005822f, type: 2}
+  RoomColliderPrefab: {fileID: 8434225239028677014, guid: 020154697c313604594566ed2fd19a57, type: 3}
+  RoomCollider: {fileID: 0}
+  PlayerPrefab: {fileID: 107172, guid: 10c14d2e748dab942a46f8401efd4ae1, type: 3}
+  MonsterPrefab: {fileID: 154156, guid: acde751c4c58d3b499304eeb64a637c5, type: 3}
+  startRoom: 0

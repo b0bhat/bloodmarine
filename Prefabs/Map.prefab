@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &170384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 443492}
+  - component: {fileID: 11452788}
+  - component: {fileID: 7967125295159005319}
+  m_Layer: 6
+  m_Name: Map
+  m_TagString: Map
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &443492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170384}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11452788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 298edf53b39bbe141b1de7b46c6e4ae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoomPrefab: {fileID: 11430952, guid: b3b927ea3b312d04f8f06a707159fa41, type: 3}
+  RoomCount: 15
+  RoomSettings:
+  - floor: {fileID: 2100000, guid: e7741bd5a4da20d49b1f23d243434a11, type: 2}
+    wall: {fileID: 2100000, guid: 168c721675a3a7540b83af953ad9268a, type: 2}
+  - floor: {fileID: 2100000, guid: e7741bd5a4da20d49b1f23d243434a11, type: 2}
+    wall: {fileID: 2100000, guid: 168c721675a3a7540b83af953ad9268a, type: 2}
+  - floor: {fileID: 2100000, guid: e7741bd5a4da20d49b1f23d243434a11, type: 2}
+    wall: {fileID: 2100000, guid: 168c721675a3a7540b83af953ad9268a, type: 2}
+  - floor: {fileID: 2100000, guid: e7741bd5a4da20d49b1f23d243434a11, type: 2}
+    wall: {fileID: 2100000, guid: 168c721675a3a7540b83af953ad9268a, type: 2}
+  MapSize:
+    x: 100
+    z: 100
+  RoomSize:
+    Min: 9
+    Max: 17
+  GenerationStepDelay: 0
+  Flag: 0
+--- !u!114 &7967125295159005319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e212efe5b0a164184c271d6ce74dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 2
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 64
+  m_UseGeometry: 0
+  m_DefaultArea: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.13333334
+  m_BuildHeightMesh: 0
+  m_NavMeshData: {fileID: 0}
